@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+.block_book{
+    margin-top: 100px;
+    max-width: 540px;
+    width: 100%;
+}
+.book{
+    float: left;
+    margin-right: 75px;
+    margin-top: 77px;
+}
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    font-family: "Tahoma";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+.mini_title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: "Tahoma";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+.text{
+    font-size: 18px;
+    margin-bottom: 43px;
+    font-family: "Tahoma";
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+.price{
+    font-size: 48px;
+    color:#3b322f;
+    margin-bottom: 53px;
+}
+.button_buy{
+    padding: 22px 42px 22px 42px;
+    color:white;
+    background-color: #f15921;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.button_moreinfo{
+    margin-left: 40px;
+    padding: 20px 30px 20px 30px;
+    color: #f15921;
+    background-color: white;
+    border: solid 2px #f15921;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.dostavkaioplata{
+    margin-top: 186px;
+    margin-bottom: 162px;
+}
+.title_dost{
+    margin-left: 425px;
+    font-size: 30px;
+    font-family: "Tahoma";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 0.9;
+}
+.dost{
+    display: flex;
+    margin-top: 100px;
+}
+.dost1{
+    margin-right: 100px;
+}
+.dost_img{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.dost_text{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.222;
+}
+.people{
+    margin-right: 108px;
+    margin-bottom: 100px;
+    margin: auto;
+}
+.man{
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
